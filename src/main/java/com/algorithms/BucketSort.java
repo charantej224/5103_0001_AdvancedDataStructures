@@ -10,8 +10,10 @@ public class BucketSort {
     public static void main(String[] args) {
 
         int[] input = {1, 4, 1, 2, 7, 5, 2};
+        System.out.println("Input Array");
         System.out.println(Arrays.toString(input));
         bucketSort(input);
+        System.out.println("Output Array");
         System.out.println(Arrays.toString(input));
 
     }

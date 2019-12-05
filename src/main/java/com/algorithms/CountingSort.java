@@ -5,6 +5,9 @@ public class CountingSort {
 
     public static void main(String[] args){
         int[] inputArray = {1, 4, 1, 2, 7, 5, 2};
+        System.out.println("Input Array");
+        System.out.println(Arrays.toString(inputArray));
+        System.out.println("Output Array");
         System.out.println(Arrays.toString(sort(inputArray, 7)));
     }
 
